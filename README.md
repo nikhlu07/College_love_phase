@@ -19,19 +19,19 @@ The "College Love Phase NFT Collection" project presents a unique and heartfelt 
 
 ### Executing Program
 
-1. Run the following command to compile the project:
+ - Run the following command to compile the project:
    npx hardhat compile
-Deploy the ERC721 contract to the Goerli Ethereum Testnet:
+ - Deploy the ERC721 contract to the Goerli Ethereum Testnet:
 npx hardhat run scripts/deploy.js --network goerli
 NOTE: After deploying, copy the generated contract address into contractAddress.js (stored in the metadata folder) and also in batchMint.js (stored in the scripts folder).
 
-Batch Mint NFTs:
+ - Batch Mint NFTs:
 npx hardhat run scripts/batchMint.js --network goerli
 The script will mint the specified number of NFTs and assign them to your address.
 
-Approve and Deposit NFTs to Polygon Mumbai:
+ - Approve and Deposit NFTs to Polygon Mumbai:
 
 
 npx hardhat run scripts/approveDeposit.js --network goerli
-Authors
+## Authors
 Nikhil
